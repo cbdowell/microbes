@@ -1,0 +1,14 @@
+{
+    "name": "microbe-scripts",
+    "version": "0.0.1",
+    "main": "build/index.js",
+    "dependencies": {
+        "babel-core": "^6.26.0",
+        "chalk": "^2.3.2",
+        "glob": "^7.1.2",
+        "microbe-logger": "^0.0.1",
+        "micromatch": "^3.1.9",
+        "mkdirp": "^0.5.1",
+        "string-length": "^2.0.0"
+    }
+}

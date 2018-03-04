@@ -1,0 +1,9 @@
+{
+    "name": "microbe-config",
+    "version": "0.0.1",
+    "main": "build/index.js",
+    "dependencies": {
+        "dotenv": "^5.0.1",
+        "microbe-constants": "^0.0.1"
+    }
+}

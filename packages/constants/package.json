@@ -1,0 +1,8 @@
+{
+    "name": "microbe-constants",
+    "version": "0.0.1",
+    "main": "build/index.js",
+    "dependencies": {
+        "chalk": "^2.3.2"
+    }
+}

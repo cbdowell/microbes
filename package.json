@@ -1,0 +1,30 @@
+{
+    "private": true,
+    "version": "0.0.1",
+    "license": "MIT",
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "build": "node ./packages/bundler/index.js",
+        "clean": "rm -rf ./packages/*/build"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.0",
+        "babel-eslint": "^8.2.2",
+        "babel-jest": "^22.4.1",
+        "babel-plugin-external-helpers": "^6.22.0",
+        "babel-preset-env": "^1.6.1",
+        "babel-register": "^6.26.0",
+        "cross-spawn": "^6.0.5",
+        "eslint": "^4.18.2",
+        "jest-cli": "^22.4.2",
+        "prettier": "^1.11.1",
+        "prettylint": "^1.0.0",
+        "rollup": "^0.56.3",
+        "rollup-plugin-babel": "^3.0.3",
+        "rollup-plugin-json": "^2.3.0",
+        "rollup-plugin-node-resolve": "^3.0.3"
+    }
+}
